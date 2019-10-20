@@ -1,6 +1,6 @@
 class DataProcessing:
     """
-
+    Helper class to read and process the file and return list
     """
 
     @staticmethod
