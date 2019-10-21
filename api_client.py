@@ -33,7 +33,7 @@ class ApiClient:
 
     def ascii_table(self):
         """
-        This method created a ascii table out of data which we is recieved from get_data()
+        This method created a ascii table out of data which is recieved from get_data()
         by show_data in list of diictionaries format i.e. in json format
         """
         try:
