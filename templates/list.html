@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>interface</td>
+            <td>description</td>
+            <td>Subnet mask</td>
+            <td>ip address</td>
+         </thead>
+
+         {% for row in data %}
+            <tr>
+               <td> {{ row["interface"]}}</td>
+               <td>{{row["description"]}}</td>
+               <td>{{row["Subnet mask"]}}</td>
+               <td>{{row['ip address']}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+
+      <a href = "/interface/all">Go back to home page</a>
+   </body>
+</html>
